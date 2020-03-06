@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: cb-kubecd
+    provider: github
+    repository: bdd-ghfjxy-import-1583522464
+  name: cb-kubecd-bdd-ghfjxy-import-1583522464
+spec:
+  description: Imported application for cb-kubecd/bdd-ghfjxy-import-1583522464
+  httpCloneURL: https://github.com/cb-kubecd/bdd-ghfjxy-import-1583522464.git
+  org: cb-kubecd
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: bdd-ghfjxy-import-1583522464
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/cb-kubecd/bdd-ghfjxy-import-1583522464.git
